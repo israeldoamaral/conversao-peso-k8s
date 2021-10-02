@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app-conversao-peso
-          image: israeldoamaral/conversao-peso:v1
+          image: israeldoamaral/conversao-peso-k8s:v1
           ports:
             - containerPort: 80
 ---
