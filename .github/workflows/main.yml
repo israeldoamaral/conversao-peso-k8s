@@ -23,7 +23,7 @@ jobs:
         uses: docker/build-push-action@v2.7.0
         with:
           context: ./ConversaoPeso.Web
-          file: ./src/Dockerfile
+          file: ./ConversaoPeso.Web/Dockerfile
           push: true
           tags: |
             israeldoamaral/conversao-peso-k8s:latest
